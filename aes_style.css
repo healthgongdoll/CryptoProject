@@ -43,3 +43,119 @@
 .container .nav ul li a:hover{
     color: #1fdfdf;
 }
+.container .cover{
+    text-decoration: none;
+    color: white;
+    font-family: abster;
+    margin: 0 300px;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.textarea {
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: 'Heeboo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 700px;
+    height: 100px;
+    transition: all 0.2s;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -350px;
+    margin-top: -150px;
+}
+.textarea:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+.textarea:focus{
+    cursor:text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+
+.btn1{
+    position:absolute;
+    left: 50%;
+    top: 45%;
+    background: none;
+    border:2px solid darkseagreen;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: -50px;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.container .btn1:hover{
+    background-color: darkslategray;
+}
+
+
+.textarea2 {
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: 'Heeboo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 700px;
+    height: 100px;
+    transition: all 0.2s;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -350px;
+    margin-top: -150px;
+}
+.textarea2:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+.textarea2:focus{
+    cursor:text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+ .cover2{
+    text-decoration: none;
+    color: white;
+    font-family: abster;
+    margin: 0 300px;
+    font-size: 20px;
+    margin-top: 250px;
+}
+
+.btn2{
+    position:absolute;
+    left: 50%;
+    top: 80%;
+    background: none;
+    border:2px solid darkseagreen;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: -50px;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.container .btn2:hover{
+    background-color: darkslategray;
+}
